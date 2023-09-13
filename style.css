@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10rem auto 0 auto;
+  background: rgb(14, 165, 233);
+  background: linear-gradient(
+    90deg,
+    rgba(14, 165, 233, 0.3) 27%,
+    rgba(14, 165, 233, 1) 68%
+  );
+}
+.title {
+  font-size: 5rem;
+  margin-bottom: 5rem;
+}
+.input {
+    border-radius: 2rem;
+    outline: none;
+    border: none;
+    padding: 1rem 2rem;
+    margin-bottom: 3rem;
+}
+.btns {
+    width: 40rem;
+    margin-top: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    padding: 1rem 2rem;
+    background-color: cadetblue;
+    color: #fff;
+    border: .5rem solid #0723c6;
+    border-radius: 2rem;
+}
+.result {
+    font-size: 2.8rem ;
+    color: yellow;
+    font-weight: bold;
+}
